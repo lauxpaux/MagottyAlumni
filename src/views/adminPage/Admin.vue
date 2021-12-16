@@ -63,9 +63,8 @@ export default {
       const admin = this.$cookies.get("isAdmin")
       switch (admin) {
         case "1":// Assistant Treasure Account
-          this.isShowVolunteer = true
-          this.isShowEvents = true
-          this.isShowNews = true
+          this.isShowOrder = true
+          this.isShowShopping = true
           break
         case "2": //Treasurer account
           this.isShowOrder = true

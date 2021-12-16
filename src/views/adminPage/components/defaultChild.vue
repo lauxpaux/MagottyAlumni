@@ -30,16 +30,19 @@ name: "default page",
       const admin = this.$cookies.get("isAdmin")
       switch (admin) {
         case "1":
-          this.accountType = 'Professor Account'
+          this.accountType = 'Assistant Treasure Account'
           break
         case "2":
-          this.accountType = 'Store Account'
+          this.accountType = 'Treasurer account'
           break
         case "3":
-          this.accountType = 'Assistant Account'
+          this.accountType = 'Vice President Account'
           break
         case "4":
-          this.accountType = 'Supervisor Account'
+          this.accountType = 'President Account'
+          break
+        case "5":
+          this.accountType = 'Administrator Account'
           break
       }
     },
