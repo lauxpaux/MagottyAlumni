@@ -1,4 +1,4 @@
-# alumni_association
+# maggotty_alumni
 
 ## Project setup
 ```
