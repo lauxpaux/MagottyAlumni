@@ -76,6 +76,7 @@ export default {
         const formData = new FormData()
         formData.append('profile_photo', blob, 'name.jpeg')
         formData.append('email', this.userPhoto.email)
+        //console.log("form data: ", formData)
         this.$axios.post('profile/changePhoto', formData, {
           headers: {
             'Content-Type': 'multipart/form-data'

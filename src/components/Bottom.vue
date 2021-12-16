@@ -9,20 +9,7 @@
       <div class="mx-auto" style="width: 250px;">Centered element
       <b-container>
         <b-row>
-<!--          <b-col sm="6">
-            Contact Us
-            <p>Maggotty High Alumni Association</p>
-            <p>1301 EAST 233 STREET</p>
-            <p>Bronx NY 10466-5842</p>
-            <br>
-            <p>Tel: 876-997-2900</p>
-            <a href="https://www.facebook.com/Maggotty-High-School-166314800089230">
-              <b-img :src="require(`../assets/fb.png`)" style="max-width: 30px"></b-img>
-            </a>
-            <a href="https://www.maggottyhigh.com">
-              <b-img :src="require(`../assets/internet.png`)" style="max-width: 30px"></b-img>
-            </a>
-          </b-col>-->
+
 
           <b-col sm="6">
             Quick Links

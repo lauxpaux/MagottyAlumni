@@ -73,6 +73,10 @@ export default {
           break
         case "3": //Vice President Account
           this.isShowUser = true
+          this.isShowShopping = true
+          this.isShowEvents = true
+          this.isShowNews = true
+          this.isShowVolunteer = true
           break
         case "4": //President Account
           this.isShowNews = true
