@@ -40,9 +40,6 @@ import forgetPage from "./views/forgetPage/Forget"
 import defaultChild from "./views/adminPage/components/defaultChild"
 import history from "./views/historyPage/History"
 import qa from "./views/Q&APage/Q&APage"
-import officers from "@/views/officerPage/components/officers";
-import officersDetail from "@/views/officerPage/components/officersDetail";
-import handleOfficers from "@/views/adminPage/components/handleofficers";
 import Confirm from "@/views/shoppingCartPage/Confirm";
 
 Vue.use(Router);
@@ -79,10 +76,7 @@ const router = new Router({
                     path: "handleOrder",
                     component: handleOrder,
                 },
-                {
-                    path: "handleOfficer",
-                    component: handleOfficers,
-                },
+
                 {
                     path: "default",
                     component: defaultChild,
@@ -97,14 +91,8 @@ const router = new Router({
             path: '/history',
             component: history,
         },
-        {
-            path: '/officer',
-            component: officers,
-        },
-        {
-            path: '/officer/:id',
-            component: officersDetail,
-        },
+
+
         {
             path: '/q&a',
             component: qa,

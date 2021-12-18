@@ -22,9 +22,7 @@
               <li class="nav-item">
                 <a class="nav-link" href="/events">Events</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/officer">Officers</a>
-              </li>  <li class="nav-item">
+               <li class="nav-item">
               <a class="nav-link" href="/donate">Donate</a>
             </li>
             </ul>

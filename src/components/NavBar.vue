@@ -37,9 +37,6 @@
             <b-nav-item href="/history"><span class="navContent">History</span></b-nav-item>
           </b-navbar-nav>
           <b-navbar-nav class="mx-auto navBorder">
-            <b-nav-item href="/officer"><span class="navContent">Officers</span></b-nav-item>
-          </b-navbar-nav>
-          <b-navbar-nav class="mx-auto navBorder">
             <b-nav-item href="/events"><span class="navContent">Events</span></b-nav-item>
           </b-navbar-nav>
         </b-collapse>

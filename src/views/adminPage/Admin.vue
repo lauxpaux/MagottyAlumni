@@ -12,7 +12,7 @@
             <router-link :id="isShopping? 'changeColor': ''" to="/admin/handleShopping" tag="li" v-show="isShowShopping">Shopping</router-link>
             <router-link :id="isUser? 'changeColor': ''" to="/admin/handleUser" tag="li" v-show="isShowUser">User</router-link>
             <router-link :id="isOrder? 'changeColor': ''" to="/admin/handleOrder" tag="li" v-show="isShowOrder">Order</router-link>
-            <router-link :id="isOfficer? 'changeColor': ''" to="/admin/handleOfficer" tag="li" v-show="isShowOfficer">Officer</router-link>
+
             <br>
           </div>
         </b-col>
@@ -34,7 +34,6 @@ export default {
       isShowShopping: false,
       isShowUser: false,
       isShowOrder: false,
-      isShowOfficer: false,
       accountType: '',
 
       isNews: false,
@@ -43,7 +42,6 @@ export default {
       isShopping: false,
       isUser: false,
       isOrder: false,
-      isOfficer: false,
     }
   },
 
@@ -84,7 +82,6 @@ export default {
           this.isShowShopping = true
           this.isShowUser = true
           this.isShowOrder = true
-          this.isShowOfficer = true
           break
         case "5": //Admin Account
           this.isShowNews = true
@@ -93,7 +90,6 @@ export default {
           this.isShowShopping = true
           this.isShowUser = true
           this.isShowOrder = true
-          this.isShowOfficer = true
           break
       }
     },
@@ -107,7 +103,6 @@ export default {
       this.isShopping = false
       this.isUser = false
       this.isOrder = false
-      this.isOfficer = false
       switch (path[2]) {
         case 'handleNews':
           this.isNews = true
@@ -126,9 +121,6 @@ export default {
           break
         case 'handleOrder':
           this.isOrder = true
-          break
-        case 'handleOfficer':
-          this.isOfficer = true
           break
       }
     }
