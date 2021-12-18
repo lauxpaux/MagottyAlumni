@@ -1,8 +1,13 @@
 <template>
   <div id="box">
-    <div class="w-100" id="colorBottom">
+    <br>
+    <div>
       <p id="AA"><b>©2021 by Maggotty High Alumni Association US Northern Region. All Right Reserved <br>
       A website by "The Mondays"</b></p>
+
+      <br>
+
+
     </div>
     <div style="z-index: 1;">
 
