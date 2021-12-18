@@ -24,6 +24,6 @@ export default {
 
 <style>
 #box{
-  background-color: #FFEAA7;
+  background-color: #ffdc04;
 }
 </style>

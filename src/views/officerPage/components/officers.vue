@@ -86,7 +86,7 @@ export default {
   width: 1200px;
 }
 #card{
-  background-color: #FFEAA7;
+  background-color: #ffdc04;
   text-align: center;
   border: 1px solid #ccc;
   border-radius: 10px;

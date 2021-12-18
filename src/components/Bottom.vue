@@ -1,31 +1,38 @@
 <template>
   <div id="box">
-    <div class="w-100" id="colorTop"></div>
     <div class="w-100" id="colorBottom">
       <p id="AA"><b>©2021 by Maggotty High Alumni Association US Northern Region. All Right Reserved <br>
-      site made by The Mondays</b></p>
+      A website by "The Mondays"</b></p>
     </div>
     <div style="z-index: 1;">
-      <div class="mx-auto" style="width: 250px;">Centered element
+
       <b-container>
-        <b-row>
 
 
-          <b-col sm="6">
-            Quick Links
-            <p><a href="/q&a">FAQs</a></p>
-            <p><a href="/history">History</a></p>
-            <p><a href="/events">Events</a></p>
-            <p><a href="/officer">Officers</a></p>
-            <p><a href="/donate">Donate</a></p>
+        <ul class="nav justify-content-center">
+            Bottom Navigation
+        </ul>
+            <ul class="nav justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link active" href="/q&a">FAQs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/history">History</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/events">Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/officer">Officers</a>
+              </li>  <li class="nav-item">
+              <a class="nav-link" href="/donate">Donate</a>
+            </li>
+            </ul>
 
             <p></p>
-          </b-col>
-        </b-row>
         <br><br><br>
 
       </b-container>
-      </div>
     </div>
 
   </div>

@@ -1,6 +1,6 @@
 <template>
   <div id="box">
-    <b-card no-body v-show="dataReady" style="background-color: #FFEAA7;">
+    <b-card no-body v-show="dataReady" style="background-color: #ffdc04;">
       <b-tabs card>
         <b-tab no-body title="Pending">
           <li v-for="(pending, index) in pendingData" v-bind:key="index">

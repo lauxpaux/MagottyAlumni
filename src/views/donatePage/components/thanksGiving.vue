@@ -32,8 +32,8 @@ export default {
   width: 1200px;
 }
 #card{
-  background-color: #FFEAA7;
-  border: #FFEAA7;
+  background-color: #ffdc04;
+  border: #ffdc04;
   text-align: center;
 }
 
